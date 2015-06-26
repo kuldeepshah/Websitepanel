@@ -193,22 +193,31 @@ namespace WebsitePanel.Portal.ExchangeServer {
         protected global::System.Web.UI.WebControls.Label lblFolderUrl;
         
         /// <summary>
-        /// locDirectoryBrowsing control.
+        /// uncPathRow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Localize locDirectoryBrowsing;
+        protected global::System.Web.UI.HtmlControls.HtmlTableRow uncPathRow;
         
         /// <summary>
-        /// chkDirectoryBrowsing control.
+        /// locUncPath control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox chkDirectoryBrowsing;
+        protected global::System.Web.UI.WebControls.Localize locUncPath;
+        
+        /// <summary>
+        /// lblUncPath control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblUncPath;
         
         /// <summary>
         /// btnSave control.
@@ -227,5 +236,14 @@ namespace WebsitePanel.Portal.ExchangeServer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ValidationSummary valSummary;
+        
+        /// <summary>
+        /// btnMigrate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnMigrate;
     }
 }
